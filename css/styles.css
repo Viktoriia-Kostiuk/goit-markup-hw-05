@@ -71,13 +71,13 @@ img {
   min-height: 70px;
   justify-content: space-between;
   padding-right: 10px;
-}
-
-.header {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.header {
   border: 1px solid #ececec;
 }
 .site-nav {
@@ -173,10 +173,10 @@ img {
 
 .footer .container {
   display: flex;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -253,6 +253,8 @@ img {
 /*----------MAIN Cтудия----------- */
 
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: #2f303a;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -264,8 +266,6 @@ img {
   background-position: center;
 }
 .hero .container {
-  min-height: 600px;
-  padding-top: 200px;
   text-align: center;
 }
 .hero-title {
@@ -345,7 +345,7 @@ img {
   visibility: hidden;
 }
 
-.about .container {
+.about {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -442,7 +442,7 @@ img {
   margin-right: 30px;
 }
 
-.command .container {
+.command {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -508,7 +508,7 @@ img {
   background-color: var(--accent-color);
 }
 
-.clients .container {
+.clients {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -556,7 +556,7 @@ img {
 
 /*----------MAIN Портфолио----------- */
 
-.projects .container {
+.projects {
   padding-top: 94px;
   padding-bottom: 94px;
   text-align: center;
